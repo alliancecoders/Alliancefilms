@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(../img/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg) no-repeat center center/cover;
+}
+
+.box {
+    width: 450px;
+    align-items: center;
+    background: #e9ecef;
+    height: 317px;
+    border-radius: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 161px;
+}
+
+.box p {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+}
+
+.input-name {
+    margin: 0 25px;
+    width: 400px;
+    height: 38px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+
+.field-email,
+.field-password {
+    margin-top: 15px;
+}
+
+.box-btn {
+    border: 2px solid #495057;
+    background: #495057;
+    color: #fff;
+    margin-top: 2px;
+    margin-left: 146px;
+    padding: 4px 33px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all .3s ease;
+}
+
+.box-btn:hover {
+    background: red;
+    border: 2px solid red;
+
+}
+
+.fieled-checbox {
+    margin: 15px 25px;
+}
+
+.input-check {
+    width: 18px;
+    height: 18px;
+}
+
+.check-span {
+    margin-top: -8px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans';
+    color: #6b6565;
+}
+
+
+/* *********************************************************************** */
+@media(max-width:1128px) {
+    .box {
+        margin-left: 67px;
+    }
+}
+
+@media(max-width:973px) {
+    .box {
+        width: 437px;
+        height: 295px;
+    }
+
+    .input-name {
+        width: 380px;
+    }
+
+    .box-btn {
+        margin-top: -14px;
+        padding: 2px 37px;
+    }
+}
+
+@media (max-width:798px) {
+    .box {
+        margin-left: 21px;
+    }
+}
+
+@media(max-width:673px) {
+    .box {
+        margin-left: -44px;
+        width: 414px;
+        height: 287px;
+    }
+
+    .input-name {
+        width: 363px;
+    }
+
+    .box-btn {
+        margin-top: 1px;
+        margin-left: 125px;
+        padding: 2px 39px;
+    }
+
+    .fieled-checbox {
+        margin: 7px 25px;
+    }
+}
+
+@media(max-width:583px) {
+    .box {
+        margin-left: -70px;
+        width: 403px;
+        height: 307px;
+    }
+
+    .input-name {
+        width: 334px;
+    }
+
+    .box-btn {
+        margin-top: 9px;
+        margin-left: 119px;
+        padding: 2px 34px;
+    }
+
+    .fieled-checbox {
+        margin: 9px 25px;
+    }
+}
+
+@media(max-width:495px) {
+    .box {
+        margin-left: -104px;
+    }
+}
+
+@media(max-width:465px) {
+    .box {
+        margin-left: -116px;
+    }
+}
+
+@media(max-width:447px) {
+    .box {
+        width: 374px;
+        height: 303px;
+        margin-left: -128px;
+    }
+
+    .input-name {
+        margin: 0 20px;
+        height: 35px;
+        width: 329px;
+    }
+}
+
+@media(max-width:416px) {
+    .box {
+        margin-left: -150px;
+    }
+}
+
+@media(max-width:321px) {
+    .box {
+        width: 309px;
+        height: 251px;
+        margin-left: -154px;
+    }
+
+    .input-name {
+        margin: 0 17px;
+        height: 28px;
+        width: 278px;
+    }
+
+    .box-btn {
+        font-size: 17px;
+        margin-top: -7px;
+        margin-left: 89px;
+        padding: 0px 27px;
+    }
+    .check-span{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:285px) {
+    .check-span {
+        margin-top: -8px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Gill Sans';
+        color: #6b6565;
+    }
+}
+
+@media(max-width:170px) {
+
+    header,
+    section,
+    body {
+        display: none;
+    }
+}
+
+/* blackout start */
+.block_chek {
+    width: 00px;
+    height: 300px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    z-index: 1;
+
+    /* background: url(../img/икон\ солнце.jpg) center center no-repeat / cover; */
+}
+
+.dir {
+    width: 300px;
+    height: 150px;
+}
+
+
+@keyframes infinite-spinning {
+    0% {
+        color: darkmagenta;
+        text-shadow: darkmagenta -2px -2px 5px;
+    }
+
+    25% {
+        color: darkorange;
+        text-shadow: darkorange -2px -2px 5px;
+    }
+
+    50% {
+        color: yellow;
+        text-shadow: yellow -2px -2px 5px;
+    }
+
+    75% {
+        color: greenyellow;
+        text-shadow: greenyellow -2px -2px 5px;
+    }
+
+    100% {
+        color: blue;
+        text-shadow: blue -2px -2px 5px;
+    }
+}
+
+.block-spin {
+    animation: infinite-spinning 10s infinite;
+    background: #000;
+}
+
+/* blackout end */
+/* Off on start */
+.switch-container {
+    width: 100px;
+    max-width: 80px;
+    max-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.switch-container .switch-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #949494;
+    z-index: -1;
+    transition: background-color .2s ease-in;
+}
+
+#switch:checked~.switch-bg {
+    background-color: #37ca37;
+}
+
+.on span {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.off span {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+#switch:checked~.on span {
+    opacity: 1;
+}
+
+#switch:checked~.off span {
+    opacity: 0;
+}
+
+.round-box {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 50%;
+    transform: translate(-3px, -50%);
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transition: transform .3s ease-in-out;
+}
+
+#switch:checked~.round-box {
+    transform: translate(25px, -50%);
+}
+
+/* Off on end */
